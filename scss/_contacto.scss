@@ -1,0 +1,19 @@
+
+.contacto{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contacto_nombre, .contacto_email, .contacto_comentario{
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    border: 2px black solid;
+    
+}
+button{
+    margin: 5px;
+    padding: 5px;
+}
+
