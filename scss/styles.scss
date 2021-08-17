@@ -50,11 +50,11 @@ label{
         align-items: baseline;
         
     }
-    .galeria1{
+    .galeria{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .galeria2{
+    .galeria{
         width: 250px;
         height: 150px;
     }
@@ -75,11 +75,11 @@ label{
         align-items: baseline;
         
     }
-    .galeria1{
+    .galeria{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .galeria2{
+    .galeria{
         width: 350px;
         height: 250px;
     }
@@ -96,14 +96,15 @@ label{
 @media only screen and (min-width: 1024px){
     .layout{
         display: grid;
-        grid-template-rows: repeat(3,200);
+        grid-template-rows: repeat(4,200);
         grid-template-columns: repeat(4,25%);
         padding: 10px;
         margin: 3%;
         text-align: justify;
         justify-content:space-between;
         grid-template-areas:
-        "principal principal section section "
+        ". h1 h1 ."
+        "texto texto section section"
         "texto texto section section"
         "building building building building";
     } 
@@ -116,12 +117,8 @@ label{
     
     .building{grid-area: building;}
     
-    .galeria1{
+    .galeria{
         grid-template-columns: repeat(3, 1fr);
-    }
-    .galeria2{
-        width: 300px;
-        height: 250px;
     }
     .productoContainer{
         grid-template-columns: repeat(3, 1fr);
