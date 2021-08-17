@@ -96,7 +96,7 @@ label{
 @media only screen and (min-width: 1024px){
     .layout{
         display: grid;
-        grid-template-rows: repeat(3,200);
+        grid-template-rows: repeat(4,200);
         grid-template-columns: repeat(4,25%);
         padding: 10px;
         margin: 3%;
@@ -104,6 +104,7 @@ label{
         justify-content:space-between;
         grid-template-areas:
         ". h1 h1 ."
+        "texto texto section section"
         "texto texto section section"
         "building building building building";
     } 
@@ -118,10 +119,6 @@ label{
     
     .galeria{
         grid-template-columns: repeat(3, 1fr);
-    }
-    .galeria{
-        width: 300px;
-        height: 250px;
     }
     .productoContainer{
         grid-template-columns: repeat(3, 1fr);
