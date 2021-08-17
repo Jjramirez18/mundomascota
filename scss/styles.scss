@@ -75,11 +75,11 @@ label{
         align-items: baseline;
         
     }
-    .galeria1{
+    .galeria{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .galeria2{
+    .galeria{
         width: 350px;
         height: 250px;
     }
@@ -103,7 +103,7 @@ label{
         text-align: justify;
         justify-content:space-between;
         grid-template-areas:
-        "principal principal section section "
+        ". h1 h1 ."
         "texto texto section section"
         "building building building building";
     } 
@@ -116,10 +116,10 @@ label{
     
     .building{grid-area: building;}
     
-    .galeria1{
+    .galeria{
         grid-template-columns: repeat(3, 1fr);
     }
-    .galeria2{
+    .galeria{
         width: 300px;
         height: 250px;
     }
