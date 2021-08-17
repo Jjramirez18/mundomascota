@@ -39,8 +39,7 @@ h1 {
   text-align: justify; }
 
 .galeria {
-  margin-left: 20%;
-  width: 700px;
+  width: 500px;
   height: 500px; }
 
 ol li {
@@ -146,10 +145,10 @@ label {
     flex-direction: column;
     justify-content: stretch;
     align-items: baseline; }
-  .galeria {
+  .galeria1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
-  .galeria {
+  .galeria2 {
     width: 250px;
     height: 150px; }
   .productoContainer {
