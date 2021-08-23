@@ -1,9 +1,8 @@
 
-$alto:200px;
-$ancho:300px;
+$alto:100px;
+$ancho:100px;
 
 @import "index";
-@import "galeria";
 @import"producto";
 @import "faqs";
 @import "contacto";
@@ -50,13 +49,9 @@ label{
         align-items: baseline;
         
     }
-    .galeria1{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .galeria2{
-        width: 250px;
-        height: 150px;
+    .galeria{
+        width: 100%;
+        height: 100%;
     }
     .productoContainer{
         display: grid;
@@ -75,13 +70,9 @@ label{
         align-items: baseline;
         
     }
-    .galeria1{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .galeria2{
-        width: 350px;
-        height: 250px;
+      .galeria{
+        width: 100%;
+        height: 100%;
     }
     .productoContainer{
         display: grid;
@@ -116,13 +107,6 @@ label{
     
     .building{grid-area: building;}
     
-    .galeria1{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .galeria2{
-        width: 300px;
-        height: 250px;
-    }
     .productoContainer{
         grid-template-columns: repeat(3, 1fr);
     }
