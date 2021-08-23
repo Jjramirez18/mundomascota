@@ -186,7 +186,10 @@ label {
   .productoContainer {
     grid-template-columns: repeat(3, 1fr); }
   .producto {
-    width: auto; } }
+    width: auto; }
+  .galeria {
+    width: 100%;
+    height: 100%; } }
 
 /** footer**/
 .rS {
