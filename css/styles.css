@@ -197,6 +197,10 @@ label {
   flex-direction: row;
   justify-content: center; }
 
+.iconosrs {
+  width: 150px;
+  height: 150px; }
+
 .redesSociales {
   font-size: 1.2rem;
   display: inline-block;
