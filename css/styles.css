@@ -124,6 +124,13 @@ label {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.0rem; }
 
+li:hover ul {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 70px;
+  background-color: greenyellow; }
+
 .layout, .productoContainer {
   animation-duration: 2s;
   animation-name: aparecer; }
