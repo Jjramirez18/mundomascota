@@ -7,7 +7,7 @@ h1{
     border: 5px black solid;
 }
 
-.section, .aside, .seg_section{
+.section, .aside, .seg_section, .building{
     text-align: justify;
     margin: 20px;
     padding: 20px;
@@ -25,9 +25,3 @@ h1{
 }
       
 
-.building{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 400%;
-    text-align: center;
-}
