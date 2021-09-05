@@ -57,41 +57,44 @@
         </nav>
     </header>
     <div class="contacto">
-        <div class="contacto_nombre" class="input-group">
-            <span class="input-group-text">Nombre y Apellido</span>
-            <input type="text" aria-label="First name" class="form-control">
-            <input type="text" aria-label="Last name" class="form-control">
-        </div>
-        <div class="contacto_email" class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="contacto_comentario" class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="button" class="btn btn-primary btn-sm">Enviar</button>
-        <button type="button" class="btn btn-secondary btn-sm">Borrar formulario</button>
+        <form action="#" method="get" enctype="text/plain">
+            <div class="contacto_nombre" class="input-group">
+                <span class="input-group-text">Nombre y Apellido</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control">
+            </div>
+            <div class="contacto_email" class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="contacto_comentario" class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <input type="submit" value="enviar" class="btn btn-primary" />
+            <input type="reset" value="limpiar formulario" class="btn btn-secondary"/>
+        </form>
     </div>
+
 
     <footer>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img class="iconosrs" src="./multimedia/twitter.svg" alt="">
-              </a>
+                <a class="nav-link" href="#">
+                    <img class="iconosrs" src="./multimedia/twitter.png" alt="">
+                </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img class="iconosrs" src="./multimedia/facebook.svg" alt="">
-              </a>
+                <a class="nav-link" href="#">
+                    <img class="iconosrs" src="./multimedia/facebook.png" alt="">
+                </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img class="iconosrs" src="./multimedia/ig.svg" alt="">
-              </a>
+                <a class="nav-link" href="#">
+                    <img class="iconosrs" src="./multimedia/ig.png" alt="">
+                </a>
             </li>
-          </ul>
+        </ul>
     </footer>
     <script src="../js/bootstrap.min.js"></script>
 </body>
